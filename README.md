@@ -6,6 +6,12 @@ Predict whether each passenger was **transported to an alternate dimension**
 (binary classification, metric = accuracy). Mid-difficulty tabular problem
 with mixed numeric/categorical features and informative missingness.
 
+## Result
+
+**0.80827 public accuracy**, the best of 10 scored submissions. The boosted-tree
+ensemble and the rank-average variants all land within 0.006 of each other, so
+the spread between them is noise rather than a ranking.
+
 ## Approach
 
 Standard tabular ensemble pipeline:
